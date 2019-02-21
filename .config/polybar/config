@@ -53,7 +53,7 @@ font-3 = FontAwesome:pixelsize=10;0
 font-4 = Weather Icons:style=Regular;size=10;1
 
 modules-left = i3
-modules-center = date weather
+modules-center = date
 modules-right = xkeyboard volume wlan eth powermenu battery
 
 tray-maxsize = 16
