@@ -6,8 +6,6 @@ new_float normal
 
 hide_edge_borders none
 
-#exec --no-startup-id betterlockscreen -w dim -u /home/wilkinsonj/Pictures/Wallpapers/lockscreens -r 1920x1080
-
 exec --no-startup-id xrandr --output HDMI-1 --primary --output eDP-1 --right-of HDMI-1 --output DP-2 --left-of HDMI-1
 exec --no-startup-id feh --randomize --bg-scale /home/wilkinsonj/Pictures/Wallpapers/Bing/*
 
@@ -246,7 +244,7 @@ mode "resize" {
 }
 
 # Autostart applications
-exec_always --no-startup-id "killall -q compton; compton --config ~/.config/i3/compton.conf"
+exec_always --no-startup-id "killall -q compton; /usr/bin/compton"
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
