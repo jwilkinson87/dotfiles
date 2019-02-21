@@ -50,7 +50,8 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Lock screen
 #bindsym $mod+Control+L exec betterscreenlock -l dim
-bindsym $mod+Control+L exec i3lock -i /home/wilkinsonj/Pictures/lockscreens/ubuntu.jpg -t
+#bindsym $mod+Control+L exec i3lock -i /home/wilkinsonj/Pictures/lockscreens/ubuntu.jpg -t
+bindsym $mod+Control+L exec i3lock-fancy
 
 # Resize windows
 bindsym $mod1+Left resize shrink width 10 px or 10 ppt
