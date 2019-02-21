@@ -266,8 +266,9 @@ client.placeholder #707880 #1d1f21 #707880 #5f819d #5f819d
 client.background #1d1f21
 
 # Gaps
+for_window [class="^.*"] border pixel 2 
 gaps inner 15
-gaps outer 0
+gaps outer -4
 
 smart_gaps on
 
