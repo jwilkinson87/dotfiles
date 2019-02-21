@@ -257,13 +257,13 @@ exec killall -q notify-osd
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
 # Theme colors
-client.focused #707880 #1d1f21 #707880 #8c9440 #8c9440
-client.focused_inactive #707880 #1d1f21 #707880 #5f819d #5f819d
-client.unfocused #707880 #1d1f21 #707880 #5f819d #5f819d
-client.urgent #707880 #1d1f21 #707880 #5f819d #5f819d
-client.placeholder #707880 #1d1f21 #707880 #5f819d #5f819d
+#client.focused #707880 #1d1f21 #707880 #8c9440 #8c9440
+#client.focused_inactive #707880 #1d1f21 #707880 #5f819d #5f819d
+#client.unfocused #707880 #1d1f21 #707880 #5f819d #5f819d
+#client.urgent #707880 #1d1f21 #707880 #5f819d #5f819d
+#client.placeholder #707880 #1d1f21 #707880 #5f819d #5f819d
 
-client.background #1d1f21
+#client.background #1d1f21
 
 # Gaps
 for_window [class="^.*"] border pixel 2 
