@@ -57,7 +57,7 @@ modules-center = date
 modules-right = xkeyboard volume wlan eth powermenu battery
 
 tray-maxsize = 16
-tray-position = right
+tray-position = ${env:TRAY_POSITION:}
 tray-padding = 0
 tray-detached = false
 pseudo-transparency = false

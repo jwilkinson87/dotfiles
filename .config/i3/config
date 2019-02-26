@@ -51,7 +51,7 @@ bindsym XF86AudioPrev exec playerctl previous
 # Lock screen
 #bindsym $mod+Control+L exec betterscreenlock -l dim
 #bindsym $mod+Control+L exec i3lock -i /home/wilkinsonj/Pictures/lockscreens/ubuntu.jpg -t
-bindsym $mod+Control+L exec i3lock-fancy
+bindsym $mod+Control+L exec i3lock-fancy --text "Jonny"
 
 # Resize windows
 bindsym $mod1+Left resize shrink width 10 px or 10 ppt
@@ -255,6 +255,9 @@ exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id /$HOME/.config/polybar/launch.sh
 exec killall -q notify-osd
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
+#exec_always --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
+exec_always --no-startup-id xfsettingsd
+exec --no-startup-id numlockx on
 
 # Theme colors
 #client.focused #707880 #1d1f21 #707880 #8c9440 #8c9440
